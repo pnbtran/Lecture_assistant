@@ -1,0 +1,13 @@
+faster-whisper>=1.1,<2
+av>=14,<18            # av 18+ không tương thích với faster-whisper 1.2.x (lỗi metadata_errors)
+pymorphy3
+pymorphy3-dicts-ru
+wordfreq
+requests
+anthropic             # chỉ cần nếu dùng --llm claude
+# Windows + NVIDIA (RTX 50 cần cuBLAS >= 12.8 và cuDNN >= 9.11):
+nvidia-cublas-cu12>=12.8; sys_platform == "win32"
+nvidia-cudnn-cu12>=9.11; sys_platform == "win32"
+pypdf>=4
+openpyxl>=3.1
+numpy

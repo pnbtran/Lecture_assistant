@@ -1,0 +1,19 @@
+# ---- dữ liệu cá nhân: KHÔNG đưa lên GitHub ----
+data/
+index/
+_archive/
+# ghi âm / kết quả, phòng khi lỡ chép vào thư mục code
+*.m4a
+*.mp3
+*.wav
+*.ogg
+*.opus
+*.flac
+*.mp4
+*.pdf
+*.xlsx
+lecture_out/
+# ---- môi trường / bộ nhớ đệm ----
+__pycache__/
+*.pyc
+.venv/
